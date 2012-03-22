@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AD86CD151AC61B002A8D8E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D46471519CD7100360A16 /* SenTestingKit.framework */; };
+		07AD86D0151ACBFA002A8D8E /* URURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AD86CE151ACBFA002A8D8E /* URURLResponse.h */; };
+		07AD86D1151ACBFA002A8D8E /* URURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD86CF151ACBFA002A8D8E /* URURLResponse.m */; };
+		07AF6B0E151A33CA00E70929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D467C1519D30900360A16 /* Foundation.framework */; };
+		07AF6B24151A341F00E70929 /* URLRaider.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AF6B1D151A341F00E70929 /* URLRaider.h */; };
+		07AF6B25151A341F00E70929 /* URLRaider.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF6B1E151A341F00E70929 /* URLRaider.m */; };
+		07AF6B26151A341F00E70929 /* URURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AF6B1F151A341F00E70929 /* URURLProtocol.h */; };
+		07AF6B27151A341F00E70929 /* URURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF6B20151A341F00E70929 /* URURLProtocol.m */; };
+		07AF6B59151A399A00E70929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D467C1519D30900360A16 /* Foundation.framework */; };
+		07AF6B69151A39B200E70929 /* libURLRaider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF6B0D151A33CA00E70929 /* libURLRaider.a */; };
+		07AF6B6E151A3B4100E70929 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF6B61151A399A00E70929 /* Tests.m */; };
+		07AF6B70151A3BA000E70929 /* URLRaiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF6B6F151A3BA000E70929 /* URLRaiderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07AF6B6A151A39B600E70929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078D462A1519CD7100360A16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07AF6B0C151A33CA00E70929;
+			remoteInfo = URLRaider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078D46471519CD7100360A16 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		078D467C1519D30900360A16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07AD86CE151ACBFA002A8D8E /* URURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URURLResponse.h; sourceTree = "<group>"; };
+		07AD86CF151ACBFA002A8D8E /* URURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URURLResponse.m; sourceTree = "<group>"; };
+		07AF6B0D151A33CA00E70929 /* libURLRaider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libURLRaider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AF6B1D151A341F00E70929 /* URLRaider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRaider.h; sourceTree = "<group>"; };
+		07AF6B1E151A341F00E70929 /* URLRaider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRaider.m; sourceTree = "<group>"; };
+		07AF6B1F151A341F00E70929 /* URURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URURLProtocol.h; sourceTree = "<group>"; };
+		07AF6B20151A341F00E70929 /* URURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URURLProtocol.m; sourceTree = "<group>"; };
+		07AF6B56151A399A00E70929 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AF6B5C151A399A00E70929 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		07AF6B61151A399A00E70929 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		07AF6B63151A399A00E70929 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		07AF6B6F151A3BA000E70929 /* URLRaiderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRaiderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AF6B0A151A33CA00E70929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF6B0E151A33CA00E70929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AF6B52151A399A00E70929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF6B69151A39B200E70929 /* libURLRaider.a in Frameworks */,
+				07AF6B59151A399A00E70929 /* Foundation.framework in Frameworks */,
+				07AD86CD151AC61B002A8D8E /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078D46281519CD7100360A16 = {
+			isa = PBXGroup;
+			children = (
+				07AF6B18151A341F00E70929 /* URLRaider */,
+				07AF6B5A151A399A00E70929 /* Tests */,
+				078D46461519CD7100360A16 /* Frameworks */,
+				078D46381519CD7100360A16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078D46381519CD7100360A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AF6B0D151A33CA00E70929 /* libURLRaider.a */,
+				07AF6B56151A399A00E70929 /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078D46461519CD7100360A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078D467C1519D30900360A16 /* Foundation.framework */,
+				078D46471519CD7100360A16 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07AF6B18151A341F00E70929 /* URLRaider */ = {
+			isa = PBXGroup;
+			children = (
+				07AF6B1D151A341F00E70929 /* URLRaider.h */,
+				07AF6B1E151A341F00E70929 /* URLRaider.m */,
+				07AF6B1F151A341F00E70929 /* URURLProtocol.h */,
+				07AF6B20151A341F00E70929 /* URURLProtocol.m */,
+				07AD86CE151ACBFA002A8D8E /* URURLResponse.h */,
+				07AD86CF151ACBFA002A8D8E /* URURLResponse.m */,
+			);
+			path = URLRaider;
+			sourceTree = "<group>";
+		};
+		07AF6B5A151A399A00E70929 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07AF6B5B151A399A00E70929 /* Supporting Files */,
+				07AF6B61151A399A00E70929 /* Tests.m */,
+				07AF6B6F151A3BA000E70929 /* URLRaiderTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		07AF6B5B151A399A00E70929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AF6B5C151A399A00E70929 /* Tests-Info.plist */,
+				07AF6B63151A399A00E70929 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07AF6B0B151A33CA00E70929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF6B24151A341F00E70929 /* URLRaider.h in Headers */,
+				07AF6B26151A341F00E70929 /* URURLProtocol.h in Headers */,
+				07AD86D0151ACBFA002A8D8E /* URURLResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07AF6B0C151A33CA00E70929 /* URLRaider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AF6B15151A33CA00E70929 /* Build configuration list for PBXNativeTarget "URLRaider" */;
+			buildPhases = (
+				07AF6B09151A33CA00E70929 /* Sources */,
+				07AF6B0A151A33CA00E70929 /* Frameworks */,
+				07AF6B0B151A33CA00E70929 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLRaider;
+			productName = URLRaider;
+			productReference = 07AF6B0D151A33CA00E70929 /* libURLRaider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		07AF6B55151A399A00E70929 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AF6B64151A399A00E70929 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				07AF6B51151A399A00E70929 /* Sources */,
+				07AF6B52151A399A00E70929 /* Frameworks */,
+				07AF6B53151A399A00E70929 /* Resources */,
+				07AF6B54151A399A00E70929 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AF6B6B151A39B600E70929 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 07AF6B56151A399A00E70929 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078D462A1519CD7100360A16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 078D462D1519CD7100360A16 /* Build configuration list for PBXProject "URLRaider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 078D46281519CD7100360A16;
+			productRefGroup = 078D46381519CD7100360A16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AF6B0C151A33CA00E70929 /* URLRaider */,
+				07AF6B55151A399A00E70929 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07AF6B53151A399A00E70929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07AF6B54151A399A00E70929 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AF6B09151A33CA00E70929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF6B25151A341F00E70929 /* URLRaider.m in Sources */,
+				07AF6B27151A341F00E70929 /* URURLProtocol.m in Sources */,
+				07AD86D1151ACBFA002A8D8E /* URURLResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AF6B51151A399A00E70929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF6B6E151A3B4100E70929 /* Tests.m in Sources */,
+				07AF6B70151A3BA000E70929 /* URLRaiderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AF6B6B151A39B600E70929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07AF6B0C151A33CA00E70929 /* URLRaider */;
+			targetProxy = 07AF6B6A151A39B600E70929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078D46591519CD7100360A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		078D465A1519CD7100360A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AF6B16151A33CA00E70929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/URLRaider.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		07AF6B17151A33CA00E70929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/URLRaider.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		07AF6B65151A399A00E70929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = Frameworks/Kiwi;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07AF6B66151A399A00E70929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = Frameworks/Kiwi;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078D462D1519CD7100360A16 /* Build configuration list for PBXProject "URLRaider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078D46591519CD7100360A16 /* Debug */,
+				078D465A1519CD7100360A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AF6B15151A33CA00E70929 /* Build configuration list for PBXNativeTarget "URLRaider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AF6B16151A33CA00E70929 /* Debug */,
+				07AF6B17151A33CA00E70929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AF6B64151A399A00E70929 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AF6B65151A399A00E70929 /* Debug */,
+				07AF6B66151A399A00E70929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078D462A1519CD7100360A16 /* Project object */;
+}

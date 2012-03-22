@@ -1,0 +1,9 @@
+[submodule "Frameworks/RestKit"]
+	path = Frameworks/RestKit
+	url = https://github.com/RestKit/RestKit.git
+[submodule "Frameworks/asi-http-request"]
+	path = Frameworks/asi-http-request
+	url = https://github.com/pokeb/asi-http-request.git
+[submodule "Frameworks/ocmock"]
+	path = Frameworks/ocmock
+	url = https://github.com/erikdoe/ocmock.git
